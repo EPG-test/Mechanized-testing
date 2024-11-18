@@ -122,7 +122,7 @@
 		"uniques": [
 			"Must be next to [Coast]",
 			"[+1 Food] from [Coast] tiles [in this city]",
-			"[+2] population [in this city]",
+			"[+1] population [in this city]",
 			"Unsellable",
 			"Destroyed when the city is captured"
 		]
@@ -145,18 +145,39 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Refrigeration"
 	},
+		{
+		"name": "Smart Processing Plant",
+		"replaces": "Food Processing Plant",
+		"uniqueTo": "The Mechanized",
+		"food": 2,
+		"percentStatBonus": {"production": 5},
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1] population [in this city]",
+			"All newly-trained [Personnel] units [in this city] receive the [Resupply] promotion",
+			"[+2 Production] from [Salt] tiles [in this city]",
+			"[+3 Production] [in this city] <after discovering [Networking]>",
+			"Only available <in cities with a [Life Creation Lab]>",
+			"Consumes [1] [Salt]",
+			"Consumes [1] [Power]",
+			"Unsellable",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Refrigeration"
+	},
 	{
 		"name": "Hydroponic Basement",
 		"replaces": "Hydroponic Farming",
 		"uniqueTo": "The Mechanized",
-		"food": 4,
+		"food": 2,
 		"specialistSlots": {"Administrator": 1},
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"[+1 Gold, +1 Happiness] from [Lakes] tiles [in this city]",
-			"[+1 Gold, +1 Happiness] from [Lakes] tiles [in this city] <after discovering [Genetics]>",
-			"[+2] population [in this city]",
+			"[+1 Gold, +1 Happiness] from [Lakes] tiles [in this city] <after discovering [Atmosphere Remediation]>",
+			"[+1] population [in this city]",
 			"Unsellable",
 			"Consumes [1] [Power]"
 		],
@@ -215,7 +236,7 @@
 			"[+3] population [in this city]",
 			"Unsellable",
 			"Destroyed when the city is captured",
-			"Consumes [1] [Power]",
+			"Consumes [2] [Power]",
 			"Only available <in cities with a [Life Creation Lab]>"
 		]
 	},
@@ -227,7 +248,8 @@
 		"uniques": [
 			"[+6 Food, +3 Happiness] from every [Life Creation Lab]",
 			"[+3] population [in all cities]",
-			"Only available <if [Next-Gen Creation Lab] is constructed in all [Non-occupied] cities>"
+			"Only available <if [Next-Gen Creation Lab] is constructed in all [non-[Puppeted]] cities>",
+			"Consumes [3] [Power]"
 		],
 		"requiredTech": "Human Genome",
 	},
