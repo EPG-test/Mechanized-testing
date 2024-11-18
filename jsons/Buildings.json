@@ -7,7 +7,7 @@
 		"production": 5,
 		"cityHealth": 100,
 		"science": 4,
-		"gold": 1,
+		"gold": 3,
 		"cost": 1,
 		"happiness": 2,
 		"uniques": ["Indicates the capital city", "Provides [4] [Power]"]
@@ -50,7 +50,7 @@
 		"cost": 40,
 		"replaces": "Hospital",
 		"uniqueTo": "The Mechanized",
-		"science": 2,
+		"science": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 0,
 		"requiredTech": "Construction",
@@ -171,6 +171,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
+			"Must be next to [Desert]",
 			"[+1 Gold, +1 Culture] from [Artificial oasis] tiles [in this city]",
 			"[+2 Science, +2 Culture] [in this city] <with [Exotic Seeds]>",
 			"[+1] population [in this city]",
@@ -228,12 +229,12 @@
 			"[+3] population [in all cities]",
 			"Only available <if [Next-Gen Creation Lab] is constructed in all [Non-occupied] cities>"
 		],
-		"requiredTech": "Human Genome"
+		"requiredTech": "Human Genome",
 	},
-  	// Change is needed to balance them out. Mass Energizer out classes Mass Breedery in most cases
-	// Ideas:
-	// Complete changes ( remove Mass Energizer and Mass Breedery for proper replacment)
-	// Embrace thier nature and add additional stats 
+  	// Change is needed to balance them out. Mass Energizer out classes Mass Breedery in most cases,
+	// Ideas:,
+	// Complete changes ( remove Mass Energizer and Mass Breedery for proper replacment),
+	// Embrace thier nature and add additional stats ,
 	
 	{
 		"name": "Mass Energizer",
@@ -350,11 +351,12 @@
 	{
 		"name": "Centralized Livestock",
 		"uniqueTo": "The Mechanized",
-		"cost": 50,
+		"isNationalWonder": true,
+		"cost": 100,
 		"uniques": [
-			"Only available <after adopting [Centralization]>",
 			"Consumes [1] [Power]",
 			"[+2] population [in this city]",
+			"Only available <if [Life Creation Lab] is constructed in at least [3] of [Your] cities>",
 			"Destroyed when the city is captured",
 			"Can only be built <in [Capital] cities>",
 			"Unsellable"
@@ -438,16 +440,8 @@
 		"maintenance": 3,
 		"uniques": [
 			"[+3] population [in this city]",
-			"[+1 Science] from [Insects] tiles [in this city]",
-			"[+1 Science] from [Goats] tiles [in this city]",
-			"[+1 Science] from [Cattle] tiles [in this city]",
-			"[+1 Science] from [Deer] tiles [in this city]",
-			"[+1 Science] from [Inscets] tiles [in this city]",
-			"[+1 Science] from [Furs] tiles [in this city]",
-			"[+1 Science] from [Horses] tiles [in this city]",
-			"[+1 Science] from [Hogs] tiles [in this city]",
-			"[+1 Science, +1 Culture] from [Hostile Fauna] tiles [in this city]",
-			"[+1 Science, +1 Culture] from [Fungus] tiles [in this city]",
+			"[+25]% Production when constructing [Civilian] units [in this city]",
+			"[+25]% Production when constructing [Personnel] units [in this city]",
 			"Unsellable",
 			"Destroyed when the city is captured",
 			"Only available <in cities with a [Next-Gen Creation Lab]>",
