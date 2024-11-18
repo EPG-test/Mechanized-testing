@@ -33,6 +33,8 @@
 			}
 		]
 	},
+	
+	//EVERY +POP building
 	{
 		"name": "Track Survivors",
 		"replaces": "Search for Survivors",
@@ -240,6 +242,68 @@
 			"Only available <in cities with a [Life Creation Lab]>"
 		]
 	},
+		{ 
+		"name": "Ocean Harvester",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Ocean Seeder",
+		"food": 4,
+		"maintenance": 2,
+		"uniques": [
+			"Must be next to [Coast]",
+			"Comment [All resources gain +1 Production in this city]",
+			"[+1 Production] from [Algae] tiles [in this city] <hidden from users>",
+			"[+1 Production] from [Plankton] tiles [in this city] <hidden from users>",
+			"[+1 Production] from [Deepwater Fish] tiles [in this city] <hidden from users>",
+			"[+1 Production] from [Mutant Eel] tiles [in this city] <hidden from users>",
+			"[+1 Production] from [Jellyfish] tiles [in this city] <hidden from users>",
+			"[+1 Production] from [Plastics] tiles [in this city] <in [Coast] tiles> <hidden from users>",
+			"[+1 Production] from [Artifacts] tiles [in this city] <in [Coast] tiles> <hidden from users>",
+			"[+1 Production] from [Deepwater Fish] tiles [in this city] <hidden from users>",
+			
+			"[+1 Production] from [Deepwater Fish] tiles [in this city] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+			"[+1 Production] from [Mutant Eel] tiles [in this city] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Only available <in cities with a [Life Creation Lab]>"
+		],
+		"requiredTech": "Ocean Remediation"
+	},
+	{
+		"name": "Flesh Cloning Vats",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Mycoprotein Vats",
+		"food": 6,
+		"maintenance": 3,
+		"uniques": [
+			"[+3] population [in this city]",
+			"[+25]% Production when constructing [Civilian] units [in this city]",
+			"[+25]% Production when constructing [Personnel] units [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Only available <in cities with a [Next-Gen Creation Lab]>",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Genetics"
+		
+	},
+	{
+		"name": "Bio-Waste Purifier",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Reclamation Vats",
+		"percentStatBonus": {"food": 25},
+		"maintenance": 4,
+		// every bio thingy gets yeilds
+		"uniques": [
+			"[+3] population [in this city]",
+			"Unsellable",
+			"Destroyed when the city is captured",
+			"Only available <in cities with a [Next-Gen Creation Lab]>",
+			"Consumes [2] [Power]"
+		],
+		"requiredTech": "Human Genome"
+	},
+	
+	//Nat wonders
 	{
 		"name": "Better Organs",
 		"replaces": "Organ Lab",
@@ -253,45 +317,43 @@
 		],
 		"requiredTech": "Human Genome",
 	},
-  	// Change is needed to balance them out. Mass Energizer out classes Mass Breedery in most cases,
-	// Ideas:,
-	// Complete changes ( remove Mass Energizer and Mass Breedery for proper replacment),
-	// Embrace thier nature and add additional stats ,
-	
+
+
 	{
-		"name": "Mass Energizer",
-		"replaces": "Congress",
+		"name": "Department of Human-Machina Relations",
+		"replaces": "Public Works Administration",
 		"uniqueTo": "The Mechanized",
-		"cost": 100,
+		"isNationalWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Administrator": 2},
+		"cost": 150,
 		"requiredTech": "Civil Service",
+		"uniques": ["Only available <after adopting [Constitution Complete]>",
+			"[+3 Production] [in all cities connected to capital]",
+			"[+1] population [in all cities connected to capital]",
+			"Gain [100] [Culture] <upon declaring friendship>",
+			"Gain [100] [Culture] <upon declaring a defensive pact>",
+			"[+50]% Golden Age length",
+			"Empire enters golden age",
+			"Only available <if [Integrate Enslaved Into Society] is constructed in at least [4] of [Your] cities>",
+			"Cost increases by [30] per owned city"]
+	},
+	{
+		"name": "Centralized Livestock",
+		"uniqueTo": "The Mechanized",
+		"isNationalWonder": true,
+		"cost": 100,
 		"uniques": [
-		   	"Provides [4] [Power]",
+			"Consumes [1] [Power]",
 			"[+2] population [in this city]",
-			"[-5]% Unhappiness from [Population] [in all cities]",
-			"Unsellable",
-			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
+			"Only available <if [Life Creation Lab] is constructed in at least [3] of [Your] cities>",
+			"Destroyed when the city is captured",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Mass Breedery]>",
-			"Destroyed when the city is captured"
+			"Unsellable"
 		]
 	},
-	{
-		"name": "Mass Breedery",
-		"cost": 100,
-		"replaces": "Council",
-		"uniqueTo": "The Mechanized",
-		"requiredTech": "Civil Service",
-		"uniques": [
-			"Consumes [3] [Power]",
-			"[+3] population [in all cities]",
-			"Cost increases by [30] per owned city",
-			"Unsellable",
-			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
-			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Mass Energizer]>",
-			"Destroyed when the city is captured"
-		]
-	},
+
+// War and conquer
 	{
 		"name": "Enslave Inferiors",
 		"uniqueTo": "The Mechanized",
@@ -331,6 +393,8 @@
 		],
 		"requiredTech": "Computers"
 	},
+	
+	// MISC
 	{
 		"name": "Integrate Enslaved Into Society",
 		"uniqueTo": "The Mechanized",
@@ -351,41 +415,8 @@
 		],
 		"requiredTech": "Civil Service"
 	},
-	{
-		"name": "Department of Human-Machina Relations",
-		"replaces": "Public Works Administration",
-		"uniqueTo": "The Mechanized",
-		"isNationalWonder": true,
-		"culture": 1,
-		"greatPersonPoints": {"Great Administrator": 2},
-		"cost": 150,
-		"requiredTech": "Civil Service",
-		"uniques": ["Only available <after adopting [Constitution Complete]>",
-			"[+3 Production] [in all cities connected to capital]",
-			"[+1] population [in all cities connected to capital]",
-			"Gain [100] [Culture] <upon declaring friendship>",
-			"Gain [100] [Culture] <upon declaring a defensive pact>",
-			"[+50]% Golden Age length",
-			"Empire enters golden age",
-			"Only available <if [Integrate Enslaved Into Society] is constructed in at least [4] of [Your] cities>",
-			"Cost increases by [30] per owned city"]
-	},
-	{
-		"name": "Centralized Livestock",
-		"uniqueTo": "The Mechanized",
-		"isNationalWonder": true,
-		"cost": 100,
-		"uniques": [
-			"Consumes [1] [Power]",
-			"[+2] population [in this city]",
-			"Only available <if [Life Creation Lab] is constructed in at least [3] of [Your] cities>",
-			"Destroyed when the city is captured",
-			"Can only be built <in [Capital] cities>",
-			"Unsellable"
-		]
-	},
+
 	
-	//Needed change: Solar Collector UI replacement soon TBD.
 	{
 		"name": "Solar Powered Furnace",
 		"replaces": "Blast Furnace",
@@ -394,10 +425,13 @@
 		"uniques": [
 			"[+1 Production] from [Scrap] tiles [in this city]",
 			"[+1 Production] from [Metal] tiles [in this city]",
-			"[+1 Production] from [Solar collector] tiles [in this city]",
-			"[+1 Production] from [Solar collector] tiles [in this city] <after discovering [Networking]>",],
+			"[+1 Production] from [Solar array] tiles [in this city]",
+			"[+1 Production] from [Solar array] tiles [in this city] <after discovering [Networking]>",
+			"Must have an owned [Solar array] within [2] tiles"],
 		"requiredTech": "Steel",
-	}
+	},
+	
+	//Making it obselete after time could be better
 	{
 		"name": "Black Smoker",
 		"uniqueTo": "The Mechanized",
@@ -422,73 +456,50 @@
 		"replaces": "Community Garden",
 		"specialistSlots": {"Administrator": 1, "Engineer": 1, "Scientist": 1},
 		"maintenance": 2,
-		"production": 2,
 		"uniques": [
 			"[+25]% Great Person generation [in this city]",
 			"Consumes [1] [Power]"
 		],
 		"requiredTech": "Radio"
 	},
-	{ 
-		"name": "Ocean Harvester",
+
+  	// Change is needed to balance them out. Mass Energizer out classes Mass Breedery in most cases,
+	// Ideas:,
+	// Mass energizer- Actively boosts yield from solar array improvements, Yields from every X pop
+	// Mass XXX (Breedery?) Lessens the unhappiness from pop in all cities grants increases the prod of unsellable buildings
+	
+	{
+		"name": "Mass Energizer",
+		"replaces": "Congress",
 		"uniqueTo": "The Mechanized",
-		"replaces": "Ocean Seeder",
-		"food": 4,
-		"maintenance": 2,
+		"cost": 100,
+		"requiredTech": "Civil Service",
 		"uniques": [
-			"Must be next to [Coast]",
-			"Comment [All resources gain +1 Production in this city]",
-			"[+1 Production] from [Algae] tiles [in this city] <hidden from users>",
-			"[+1 Production] from [Plankton] tiles [in this city] <hidden from users>",
-			"[+1 Production] from [Deepwater Fish] tiles [in this city] <hidden from users>",
-			"[+1 Production] from [Mutant Eel] tiles [in this city] <hidden from users>",
-			"[+1 Production] from [Jellyfish] tiles [in this city] <hidden from users>",
-			"[+1 Production] from [Plastics] tiles [in this city] <in [Coast] tiles> <hidden from users>",
-			"[+1 Production] from [Artifacts] tiles [in this city] <in [Coast] tiles> <hidden from users>",
-			"[+1 Production] from [Deepwater Fish] tiles [in this city] <hidden from users>",
-			
-			"[+1 Production] from [Deepwater Fish] tiles [in this city] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-			"[+1 Production] from [Mutant Eel] tiles [in this city] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-
-
-			
+		   	"Provides [4] [Power]",
+			"[+2] population [in this city]",
+			"[-5]% Unhappiness from [Population] [in all cities]",
 			"Unsellable",
-			"Destroyed when the city is captured",
-			"Only available <in cities with a [Life Creation Lab]>"
-		],
-		"requiredTech": "Ocean Remediation"
+			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Mass Breedery]>",
+			"Destroyed when the city is captured"
+		]
 	},
 	{
-		"name": "Flesh Cloning Vats",
+		"name": "Mass Breedery",
+		"cost": 100,
+		"replaces": "Council",
 		"uniqueTo": "The Mechanized",
-		"replaces": "Mycoprotein Vats",
-		"food": 6,
-		"maintenance": 3,
+		"requiredTech": "Civil Service",
 		"uniques": [
-			"[+3] population [in this city]",
-			"[+25]% Production when constructing [Civilian] units [in this city]",
-			"[+25]% Production when constructing [Personnel] units [in this city]",
+			"Consumes [3] [Power]",
+			"[+3] population [in all cities]",
+			"Cost increases by [30] per owned city",
 			"Unsellable",
-			"Destroyed when the city is captured",
-			"Only available <in cities with a [Next-Gen Creation Lab]>",
-			"Consumes [1] [Power]"
-		],
-		"requiredTech": "Genetics"
-		
+			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
+			"Can only be built <in [Capital] cities>",
+			"Only available <in cities without a [Mass Energizer]>",
+			"Destroyed when the city is captured"
+		]
 	},
-	{
-		"name": "Product Waste Purifier",
-		"uniqueTo": "The Mechanized",
-		"replaces": "Reclamation Vats",
-		"percentStatBonus": {"food": 25},
-		"maintenance": 4,
-		"uniques": [
-			"[+3] population [in this city]",
-			"Unsellable",
-			"Destroyed when the city is captured",
-			"Only available <in cities with a [Next-Gen Creation Lab]>",
-			"Consumes [1] [Power]"
-		],
-		"requiredTech": "Human Genome"
-	}
 ]
