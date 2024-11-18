@@ -13,5 +13,26 @@
 			"Pillaging this improvement yields approximately [+20 Science]"
 		],
 		"shortcutKey": "K"
-	}
+	},
+		{
+		"name": "Fotowoltaika",
+		"replaces": "Solar collector",
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": [
+			"Badlands",
+			"Wasteland",
+			"Desert"
+		],
+		"production": 1,
+		"turnsToBuild": 14,
+		"techRequired": "Electronics",
+		"uniques": [
+			"Provides [1] [Power] <after discovering [Computers]>",
+			"[+1 Production] <after discovering [Plastics]>",
+			"[+1 Production] <after discovering [Advanced Materials]>",
+			"[+1 Production] <after discovering [Atmosphere Remedation]>",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "L"
+	},
 ]
