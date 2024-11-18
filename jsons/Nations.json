@@ -18,8 +18,8 @@
 		"hateHello": "*I am not going to answer inferior beings like you*",
 		"tradeRequest": "The Artificial Intelligence has come up with this offer. It will surely be well thought.",
 
-		"outerColor": [180, 110, 45],
-		"innerColor": [120, 189, 0],
+		"outerColor": [144, 91, 54],
+		"innerColor": [160, 208, 76],
 		"style": "",
 		"uniqueName": "Synthetic Mankind",
 	
@@ -27,7 +27,7 @@
 			
 			"Comment [Cannot grow cities naturally with Food]",
 			"Comment [Can artificially create people with unique buildings]",
-		// BTW its a band aid
+			
 		"[-10 Food] from [Insects] tiles [in all cities] <hidden from users>",
 		"[-10 Food] from [Goats] tiles [in all cities] <hidden from users>",
 		"[-10 Food] from [Cattle] tiles [in all cities] <hidden from users>",
