@@ -1,0 +1,293 @@
+
+game.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Artificial Feedery
+  rotate: false
+  xy: 4, 80
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Better Organs
+  rotate: false
+  xy: 1308, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Bio Material Recycling
+  rotate: false
+  xy: 268, 308
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Black Smoker
+  rotate: false
+  xy: 112, 80
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cleaner Nucleator
+  rotate: false
+  xy: 376, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cloning Vats
+  rotate: false
+  xy: 1416, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Control Router
+  rotate: false
+  xy: 484, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Enslave Inferiors
+  rotate: false
+  xy: 1524, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Fabricated Paradise
+  rotate: false
+  xy: 592, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Fish Farm Regulator
+  rotate: false
+  xy: 1632, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Freezing Room
+  rotate: false
+  xy: 700, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Integrate Enslaved Into Society
+  rotate: false
+  xy: 1848, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Life Creation Lab
+  rotate: false
+  xy: 684, 308
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mass Breedery
+  rotate: false
+  xy: 916, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mass Energizer
+  rotate: false
+  xy: 1024, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mechanized Core
+  rotate: false
+  xy: 892, 308
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Next-Gen Creation Lab
+  rotate: false
+  xy: 1308, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Rations Dispenser
+  rotate: false
+  xy: 1416, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Smart Processing Plant
+  rotate: false
+  xy: 1632, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Solar Panel Controller
+  rotate: false
+  xy: 1740, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Solar Power AI
+  rotate: false
+  xy: 1100, 308
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Track Survivors
+  rotate: false
+  xy: 328, 92
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Waste-to-Energy Plant
+  rotate: false
+  xy: 544, 92
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Hacking site
+  rotate: false
+  xy: 808, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Mechanized
+  rotate: false
+  xy: 220, 80
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/High Mind
+  rotate: false
+  xy: 476, 308
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Hacking site
+  rotate: false
+  xy: 62, 4
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Autonomous Sapper
+  rotate: false
+  xy: 62, 44
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Medical Support Drone
+  rotate: false
+  xy: 4, 188
+  size: 256, 320
+  orig: 256, 320
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Swarm Drones
+  rotate: false
+  xy: 1956, 422
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Unmanned Combat Vehicle
+  rotate: false
+  xy: 1240, 214
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Autonomous Sapper
+  rotate: false
+  xy: 268, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Gunner Drone
+  rotate: false
+  xy: 1740, 408
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Medical Support Drone
+  rotate: false
+  xy: 1132, 200
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Refurbished Purge Robot
+  rotate: false
+  xy: 1524, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Swarm Drones
+  rotate: false
+  xy: 1848, 300
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Unmanned Combat Vehicle
+  rotate: false
+  xy: 436, 92
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Augmented Vision
+  rotate: false
+  xy: 4, 22
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Explosive Nanites
+  rotate: false
+  xy: 1956, 458
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Overcome Obstructions
+  rotate: false
+  xy: 1240, 250
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Wire Trapped
+  rotate: false
+  xy: 652, 142
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
