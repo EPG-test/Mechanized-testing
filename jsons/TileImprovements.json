@@ -25,7 +25,7 @@
 		],
 		"production": 1,
 		"turnsToBuild": 14,
-		"techRequired": "Electronics",
+		"techRequired": "Machinery",
 		"uniques": [
 			"Provides [1] [Power] <after discovering [Computers]>",
 			"[+1 Production] <after discovering [Plastics]>",
