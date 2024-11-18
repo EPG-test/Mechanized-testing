@@ -15,7 +15,7 @@
 		"shortcutKey": "K"
 	},
 		{
-		"name": "Fotowoltaika",
+		"name": "Solar array",
 		"replaces": "Solar collector",
 		"uniqueTo": "The Mechanized",
 		"terrainsCanBeBuiltOn": [
