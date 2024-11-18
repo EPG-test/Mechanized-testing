@@ -125,7 +125,8 @@
 			"Can only attack [Military] units",
 			"Withdraws before melee combat <with [25]% chance>",
 			"Only available <if [Aerospace Facility] is constructed>",
-			"[Target Unit] gains the [Explosive Nanites] status for [9999] turn(s) <upon damaging a [Military] unit>"
+			"[Target Unit] gains the [Explosive Nanites] status for [9999] turn(s) <upon damaging a [Military] unit>",
+			"Consumes [2] [Power]"
 		],
 		"attackSound": "swarm"
 	},
