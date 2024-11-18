@@ -30,7 +30,7 @@
 			"Provides [1] [Power] <after discovering [Computers]>",
 			"[+1 Production] <after discovering [Plastics]>",
 			"[+1 Production] <after discovering [Advanced Materials]>",
-			"[+1 Production] <after discovering [Atmosphere Remedation]>",
+			"[+1 Production] <after discovering [Atmosphere Remediation]>",
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		],
 		"shortcutKey": "L"
