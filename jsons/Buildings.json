@@ -408,22 +408,26 @@
 		"requiredTech": "Radio"
 	},
 	{ 
-		"name": "Aquaculture Site",
+		"name": "Ocean Harvester",
 		"uniqueTo": "The Mechanized",
 		"replaces": "Ocean Seeder",
 		"food": 4,
 		"maintenance": 2,
 		"uniques": [
 			"Must be next to [Coast]",
-			"[+2] population [in this city]",
-			"[+1 Science] from [Algae] tiles [in this city]",
-			"[+1 Science] from [Plankton] tiles [in this city]",
-			"[+1 Science] from [Deepwater Fish] tiles [in this city]",
-			"[+1 Science] from [Mutant Eel] tiles [in this city]",
-			"[+1 Science] from [Jellyfish] tiles [in this city]",
+			"Comment [All resources gain +1 Production in this city]",
+			"[+1 Production] from [Algae] tiles [in this city] <hidden from users>",
+			"[+1 Production] from [Plankton] tiles [in this city] <hidden from users>",
+			"[+1 Production] from [Deepwater Fish] tiles [in this city] <hidden from users>",
+			"[+1 Production] from [Mutant Eel] tiles [in this city] <hidden from users>",
+			"[+1 Production] from [Jellyfish] tiles [in this city] <hidden from users>",
+			"[+1 Production] from [Plastics] tiles [in this city] <in [Coast] tiles> <hidden from users>",
+			"[+1 Production] from [Artifacts] tiles [in this city] <in [Coast] tiles> <hidden from users>",
+			"[+1 Production] from [Deepwater Fish] tiles [in this city] <hidden from users>",
 			
-			"[+1 Science] from [Deepwater Fish] tiles [in this city] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
-			"[+1 Science] from [Mutant Eel] tiles [in this city] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+			"[+1 Production] from [Deepwater Fish] tiles [in this city] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+			"[+1 Production] from [Mutant Eel] tiles [in this city] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+
 
 			
 			"Unsellable",
