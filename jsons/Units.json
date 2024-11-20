@@ -47,89 +47,58 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Unmanned Combat Vehicle",
-		"replaces": "Wasteland Patrol",
+		"name": "Wasteland Roamer",
+		"replaces": "Attack Vehicle",
 		"uniqueTo": "The Mechanized",
-		"unitType": "Siege",
-		"range": 1,
-		"interceptRange": 1,
+		"unitType": "Armor",
 		"movement": 4,
-		"strength": 15,
-		"rangedStrength": 20,
-		"cost": 55,
-		"requiredTech": "Construction",
+		"strength": 30,
+		"cost": 70,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Armored Car",
 		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Technical",
 		"uniques": [
 			"Automated",
-			"[+50]% Strength <vs [Barbarian] units>",
-			"[+33]% Strength <vs [Low Tech] units>",
-			"[-33]% Strength <vs cities>",
+			"[+20]% Strength <vs [Low Tech] units>",
+			"[+20]% Strength <vs [Barbarian] units>",
+			"[-33]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
-			"Withdraws before melee combat <with [25]% chance>",
-			"Only available <if [Wasteland Surveillance Initiative] is constructed>",
+			"No defensive terrain bonus",
 			"Consumes [1] [Power]"
 		],
-		"promotions": ["Automated", "Conquer Terrain"],
+		"promotions": ["Automated"],
 		"hurryCostModifier": 20,
-		"attackSound": "tankshot",
-		"civilopediaText": [
+		"attackSound": "tankshot"
+			
+	},
+	{
+		"name": "Ravager",
+		"replaces": "Armored Car",
+		"uniqueTo": "The Mechanized",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 45,
+		"cost": 175,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": [
+			"[+20]% Strength <vs [Personel] units>",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Power]"
+		],
+		"promotions": ["Automated"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+	"civilopediaText": [
 			{
-				"text": "An unmanned ground vehicle which was originally developed during the Old World era and hastily refurbished. While its mobility was largely preserved, its combat abilities leave much to be desired."
+				"text": "An example of what humans used against themself during the Old World era. Now, once again those horrors can be unleashed in thier derusted form."
 			}
 		]
-	},
-	{
-		"name": "Medical Support Drone",
-		"replaces": "Wandering Doctor",
-		"uniqueTo": "The Mechanized",
-		"unitType": "Helicopter",
-		"range": 1,
-		"interceptRange": 1,
-		"movement": 3,
-		"strength": 15,
-		"rangedStrength": 20,
-		"cost": 100,
-		"requiredTech": "Biology",
-		"obsoleteTech": "Pharmaceuticals",
-		"upgradesTo": "Helicopter",
-		"uniques": [
-			"Can move after attacking",
-			"All adjacent units heal [+5] HP when healing",
-			"[-1] Sight",
-			"[-25]% Strength <vs cities>",
-			"Withdraws before melee combat <with [25]% chance>",
-			"Can only be built <in cities with a [Life Creation Lab]>",
-			"Consumes [1] [Power]"
-		],
-		"promotions": ["Automated", "Medic I", "Medic II"],
-		"hurryCostModifier": 20,
-		"attackSound": "shot"
-	},
-	{
-		"name": "Swarm Drones",
-		"replaces": "Quadcopter Drone",
-		"uniqueTo": "The Mechanized",
-		"unitType": "Helicopter",
-		"range": 1,
-		"movement": 6,
-		"strength": 50,
-		"rangedStrength": 65,
-		"cost": 300,
-		"hurryCostModifier": 20,
-		"requiredTech": "Robotics",
-		"promotions": ["Automated"],
-		"uniques": [
-			"Automated",
-			"Can move after attacking",
-			"Can only attack [Military] units",
-			"Withdraws before melee combat <with [25]% chance>",
-			"Only available <if [Aerospace Facility] is constructed>",
-			"[Target Unit] gains the [Explosive Nanites] status for [9999] turn(s) <upon damaging a [Military] unit>",
-			"Consumes [2] [Power]"
-		],
-		"attackSound": "swarm"
-	},
+	}, 
 	{
 		"name": "Refurbished Purge Robot",
 		"replaces": "Salvaged Purge Robot",
