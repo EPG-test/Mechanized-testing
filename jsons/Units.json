@@ -136,4 +136,20 @@
 			}
 		]
 	}
+		{
+		"name": "Life Surveilance Drone",
+		"uniqueTo": "The Mechanized",
+		"replaces": "Great Farmer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 200,
+		"uniques": [
+			"Can instantly construct a [Life Research Site] improvement <by consuming this unit>",
+			"Is part of Great Person group [Farmer]", "Great Person - [Food]",
+			"Can only be built <in cities with a [Life Creation Lab]>",
+			"Requires at least [8] population",
+			"Cannot be purchased"
+		]
+	},
+
 ]
