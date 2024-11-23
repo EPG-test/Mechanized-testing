@@ -470,11 +470,10 @@
 		   	"[+1 Culture, +1 Production] per [4] population [in all cities]",
 			"[-5]% Unhappiness from [Population] [in all cities]",
 			"[+25]% Production when constructing [Unsellable] buildings [in all cities]",
-			"Consumes [1] [Power]",
 			"Unsellable",
 			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Mass Breedery]>",
+			"Only available <in cities without a [Mass Power Cell]>",
 			"Destroyed when the city is captured"
 		]
 	},
@@ -488,9 +487,9 @@
 			"[+5]% Production when constructing [All] buildings [in this city]",
 			"[+1 Production] from every [Solar array]",
 			"[+1 Science] <for every [1] [Power]>",
-			"Only available <if [Life Creation Lab] is constructed in at least [4] of [Your] cities>",
+			"Only available <if [Solar Powered Furnace] is constructed in at least [4] of [Your] cities>",
 			"Can only be built <in [Capital] cities>",
-			"Only available <in cities without a [Mass Energizer]>",
+			"Only available <in cities without a [Mass Creator Kit]>",
 			"Destroyed when the city is captured"
 		]
 	},
