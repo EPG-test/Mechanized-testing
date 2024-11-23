@@ -106,6 +106,7 @@
 	}, 
 	{
 		"name": "Ravager",
+		"uniqueTo": "The Mechanized",
 		"replaces": "Tank",
 		"unitType": "Armor",
 		"movement": 4,
