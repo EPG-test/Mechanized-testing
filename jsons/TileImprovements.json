@@ -31,7 +31,11 @@
 			"[+1 Production] <after discovering [Plastics]>",
 			"[+1 Production] <after discovering [Advanced Materials]>",
 			"[+1 Production] <after discovering [Atmosphere Remediation]>",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Luxury resource] tiles",
 			"Pillaging this improvement yields approximately [+20 Gold]"
+		
 		],
 	},
 		{
