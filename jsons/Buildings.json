@@ -285,6 +285,7 @@
 		"maintenance": 4,
 		// every bio thingy gets yeilds
 		"uniques": [
+			"[+1 Production, +2 Gold] from [Life Research Site] tiles [in this city]",
 			"[+3] population [in this city]",
 			"Unsellable",
 			"Destroyed when the city is captured",
