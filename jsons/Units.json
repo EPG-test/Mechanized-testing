@@ -47,13 +47,13 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Wasteland Roamer",
+		"name": "Reclaimer",
 		"replaces": "Attack Vehicle",
 		"uniqueTo": "The Mechanized",
 		"unitType": "Armor",
 		"movement": 4,
 		"strength": 30,
-		"cost": 70,
+		"cost": 90,
 		"requiredTech": "Machinery",
 		"upgradesTo": "Armored Car",
 		"obsoleteTech": "Replaceable Parts",
@@ -69,10 +69,13 @@
 		"promotions": ["Automated"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
-			
+		"civilopediaText": [
+			{
+				"text": "A vehicle that main usage was to pacify riots during the Old Wolrd era. Now its new purpose is to pacify those who roam the wastelands"
+			}	
 	},
 	{
-		"name": "Ravager",
+		"name": "Decimator",
 		"replaces": "Armored Car",
 		"uniqueTo": "The Mechanized",
 		"unitType": "Armor",
@@ -83,22 +86,53 @@
 		"upgradesTo": "Tank",
 		"obsoleteTech": "Combined Arms",
 		"uniques": [
+			"Automated",
 			"[+20]% Strength <vs [Personel] units>",
 			"[-33]% Strength <vs cities> <when attacking>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"Only available <if [Factory] is constructed>",
-			"Consumes [1] [Power]"
+			"Consumes [1] [Power]",
+			"Consumes [1] [Oil]",
 		],
 		"promotions": ["Automated"],
 		"hurryCostModifier": 20,
 		"attackSound": "tankshot"
 	"civilopediaText": [
 			{
-				"text": "An example of what humans used against themself during the Old World era. Now, once again those horrors can be unleashed in thier derusted form."
+				"text": "Relic of the Old World Era made with a thought of cleaning the battlefields from enemy forces. Far from the prevoius models but still as fiery as before."
 			}
 		]
 	}, 
+	{
+		"name": "Ravager",
+		"replaces": "Tank",
+		"unitType": "Armor",
+		"movement": 4,
+		"strength": 60,
+		"cost": 250,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Modern Armor",
+		"obsoleteTech": "Advanced Materials",
+		"uniques": [
+			"Automated",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Only available <if [Factory] is constructed>",
+			"Consumes [1] [Power]",
+			"Consumes [1] [Oil]",
+		
+		],
+		"promotions": ["Automated", "Drone Recon", "Drone Support"],
+		"hurryCostModifier": 20,
+		"attackSound": "tankshot"
+		"civilopediaText": [
+			{
+				"text": "Hellish example of what humans used against themself during the Old World era. Now, once again those horrors can be unleashed in thier derusted form."
+			}
+	},
+
 	{
 		"name": "Refurbished Purge Robot",
 		"replaces": "Salvaged Purge Robot",
@@ -142,14 +176,16 @@
 		"replaces": "Great Farmer",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 200,
+		"cost": 300,
 		"uniques": [
 			"Can instantly construct a [Life Research Site] improvement <by consuming this unit>",
+			"Comment [Warning Life Research Sites Consume Power!]",
 			"Is part of Great Person group [Farmer]", "Great Person - [Food]",
 			"Can only be built <in cities with a [Life Creation Lab]>",
 			"Requires at least [8] population",
 			"Cannot be purchased"
 		]
+			"requiredTech": "Biology",
 	},
 
 ]
