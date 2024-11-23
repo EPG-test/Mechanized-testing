@@ -37,7 +37,7 @@
 		{
 		"name": "Life Research Site",
 		"uniqueTo": "The Mechanized",
-		"replaces": "Factory Farm",
+		"replaces": "Factory farm",
 		"terrainsCanBeBuiltOn": [
 			"Badlands",
 			"Wasteland",
