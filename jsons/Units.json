@@ -130,7 +130,7 @@
 		"civilopediaText": [
 			{
 				"text": "Hellish example of what humans used against themself during the Old World era. Now, once again those horrors can be unleashed in thier derusted form."
-			}
+			}]
 	},
 
 	{
@@ -169,7 +169,7 @@
 				"text": "A Purge Robot that originally operated during the Old World era. Some of its combat effectiveness was sacrificed when it was refurbished and repurposed for manual labor."
 			}
 		]
-	}
+	},
 		{
 		"name": "Life Surveilance Drone",
 		"uniqueTo": "The Mechanized",
