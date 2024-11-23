@@ -138,7 +138,7 @@
 		"name": "Refurbished Purge Robot",
 		"replaces": "Salvaged Purge Robot",
 		"uniqueTo": "The Mechanized",
-		"unitType": "Purge Robot",
+		"unitType": "Armor",
 		"requiredTech": "Machinery",
 		"obsoleteTech": "Future Power",
 		"upgradesTo": "Purge Robot",
