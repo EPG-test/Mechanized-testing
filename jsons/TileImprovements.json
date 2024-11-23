@@ -82,8 +82,8 @@
 			"[+1 Science] <after discovering [Genetics]>",
 			"[+1 Science] <after discovering [Rewilding]>",
 			"Will not be replaced by automated units",
-			"Pillaging this improvement yields approximately [+20 Science]"
+			"Pillaging this improvement yields approximately [+20 Science]",
+			"Consumes [1] [Power]"
 		],
-		"shortcutKey": "K"
 	},
 ]
