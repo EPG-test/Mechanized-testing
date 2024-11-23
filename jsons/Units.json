@@ -183,7 +183,8 @@
 			"Comment [Warning Life Research Sites Consume Power!]",
 			"Is part of Great Person group [Farmer]", "Great Person - [Food]",
 			"Can only be built <in cities with a [Life Creation Lab]>",
-			"Requires at least [8] population",
+			"Requires at least [12] population",
+			"Can only be built <in [Capital] cities>",
 			"Cannot be purchased"
 		]
 			"requiredTech": "Biology",
