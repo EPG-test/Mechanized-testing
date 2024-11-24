@@ -172,7 +172,7 @@
 		]
 	},
 		{
-		"name": "Life Surveilance Drone",
+		"name": "Life Surveillance Drone",
 		"uniqueTo": "The Mechanized",
 		"replaces": "Great Farmer",
 		"unitType": "Civilian",
