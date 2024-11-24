@@ -22,6 +22,12 @@
 		"innerColor": [160, 208, 76],
 		"style": "",
 		"uniqueName": "Synthetic Mankind",
+	// Possible nerfs:,
+	//-10% production and- 15% science in all cities removed until Networkin is discovered,
+	// Reason : New Life research site that is enabled after Biology tech is discovered that gives science - less science than Academy but spammable on disposable food tiles
+	// further notice If Life research site gets more yields in future then that change MUST be pushed
+	// +25% prod towards building already existing in capital completely removed or changed to only +15%
+	// The Mechanized already has a lot production potential soo why that unique exist here? -10% prod before computers but +15% (with maths +25%-10% = +15%) towards (almost) every building?
 	
 		"uniques":[
 			
@@ -75,7 +81,7 @@
 		"[-10 Food] from every [Wasteland Station] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 		"[-10 Food] from every [VX Refinery] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 		"[-10 Food] from every [Yurt] <hidden from users>",
-// Possible Constitution growth-replacement stats
+// Possible Constitution growth-replacement stats fot base Deciv
 		"Comment [Food-based policies give other bonuses]",
 		"[+1 Production] [in capital] <after adopting [Differential Rationing]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 		"[+5]% Production when constructing [All] buildings [in capital] <after adopting [Differential Rationing]> <if [Outlaws of the Wastes] is enabled> <hidden from users>",
