@@ -151,26 +151,26 @@
 		
 	// Outlwaws of the wastes UB for the Mechanized
 	//{
-//		"name": "Smart Processing Plant",
-//		"replaces": "Food Processing Plant",
-//		"uniqueTo": "The Mechanized",
-//		"food": 2,
-//		"percentStatBonus": {"production": 5},
-//		"maintenance": 2,
-//		"hurryCostModifier": 25,
-//		"uniques": [
-//			"[+1] population [in this city]",
-//			"All newly-trained [Personnel] units [in this city] receive the [Resupply] promotion",
-//			"[+2 Production] from [Salt] tiles [in this city]",
-//			"[+2 Production] [in this city] <after discovering [Computers]>",
-//			"Only available <in cities with a [Life Creation Lab]>",
-//			"Consumes [1] [Salt]",
-//			"Consumes [1] [Power]",
-//			"Unsellable",
-//			"Destroyed when the city is captured"
-//		],
-//		"requiredTech": "Refrigeration"
-//	},
+		"name": "Smart Processing Plant",
+		"replaces": "Food Processing Plant",
+		"uniqueTo": "The Mechanized",
+		"food": 2,
+		"percentStatBonus": {"production": 5},
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1] population [in this city]",
+			"All newly-trained [Personnel] units [in this city] receive the [Resupply] promotion",
+			"[+2 Production] from [Salt] tiles [in this city]",
+			"[+2 Production] [in this city] <after discovering [Computers]>",
+			"Only available <in cities with a [Life Creation Lab]>",
+			"Consumes [1] [Salt]",
+			"Consumes [1] [Power]",
+			"Unsellable",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Refrigeration"
+	},
 	{
 		"name": "Hydroponic Basement",
 		"replaces": "Hydroponic Farming",
@@ -232,7 +232,7 @@
 		"replaces": "Medical Lab",
 		"uniqueTo": "The Mechanized",
 		"food": 5,
-		"science": 5,
+		"science": 3,
 		"maintenance": 3,
 		"hurryCostModifier": 0,
 		"requiredTech": "Pharmaceuticals",
