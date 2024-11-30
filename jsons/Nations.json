@@ -80,6 +80,7 @@
 		"[-10 Food] from every [Tree plantation] <hidden from users>",
 		"[-10 Food] from every [Wasteland Station] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
 		"[-10 Food] from every [VX Refinery] <if [Outlaws of the Wastes] is enabled> <hidden from users>",
+		"[-10 Food] from every [Lakes] <hidden from users>",
 		"[-10 Food] from every [Yurt] <hidden from users>",
 // Possible Constitution growth-replacement stats fot base Deciv
 		"Comment [Food-based policies give other bonuses]",
