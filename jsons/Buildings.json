@@ -432,7 +432,6 @@
 		"maintenance": 5,
 		"cost": 300,
 		"hurryCostModifier": 30,
-		"percentStatBonus": {"food": -30},
 		"uniques": [
 			"Provides [10] [Power]",
 			"Consumes [2] [Coal]",
