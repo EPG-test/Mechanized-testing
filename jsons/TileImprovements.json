@@ -57,29 +57,29 @@
 		"uniques": [
 			"Great Improvement",
 			"Gives a defensive bonus of [10]%",
-			"Comment [Improves all biological resorce tiles]",
-			"Improves [Horses] resource in this tile <hidden from users>",
-			"Improves [Cattle] resource in this tile <hidden from users>",
-			"Improves [Goats] resource in this tile <hidden from users>",
-			"Improves [Deer] resource in this tile <hidden from users>",
-			"Improves [Furs] resource in this tile <hidden from users>",
-			"Improves [Hostile Fauna] resource in this tile <hidden from users>",
-			"Improves [Hogs] resource in this tile <hidden from users>",
-			"Improves [Insects] resource in this tile <hidden from users>",
-			
-			"Improves [Algae] resource in this tile <hidden from users>",
-			"Improves [Jellyfish] resource in this tile <hidden from users>",
-			"Improves [Plankton] resource in this tile <hidden from users>",
-			"Improves [Deep-sea Fish] resource in this tile <hidden from users>",
-			"Improves [Mutant Eel] resource in this tile <hidden from users>",
 
-			"Improves [Grain] resource in this tile <hidden from users>",
-			"Improves [Tubers] resource in this tile <hidden from users>",
-			"Improves [Maize] resource in this tile <hidden from users>",
-			"Improves [Cactus] resource in this tile <hidden from users>",
-			
-			"Improves [Fungus] resource in this tile <hidden from users>",
-			
+			"Improves [Horses] resource in this tile",
+			"Improves [Cattle] resource in this tile",
+			"Improves [Goats] resource in this tile",
+			"Improves [Deer] resource in this tile",
+			"Improves [Furs] resource in this tile",
+			"Improves [Hostile Fauna] resource in this tile",
+			"Improves [Hogs] resource in this tile",
+			"Improves [Insects] resource in this tile",
+
+			"Improves [Algae] resource in this tile",
+			"Improves [Jellyfish] resource in this tile",
+			"Improves [Plankton] resource in this tile",
+			"Improves [Deep-sea Fish] resource in this tile",
+			"Improves [Mutant Eel] resource in this tile",
+
+			"Improves [Grain] resource in this tile",
+			"Improves [Tubers] resource in this tile",
+			"Improves [Maize] resource in this tile",
+			"Improves [Cactus] resource in this tile",
+
+			"Improves [Fungus] resource in this tile",
+
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
 			"Can only be built to improve a resource",
