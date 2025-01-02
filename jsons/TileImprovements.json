@@ -41,7 +41,6 @@
 	},
 		{
 		"name": "Life Research Site",
-		"uniqueTo": "The Mechanized",
 		"terrainsCanBeBuiltOn": [
 			"Badlands",
 			"Wasteland",
