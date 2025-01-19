@@ -90,7 +90,7 @@
 		"[+1 Production] [in capital] <after adopting [Centralization]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
 		"[+5]% Production when constructing [All] buildings [in capital] <after adopting [Centralization]> <if [Outlaws of the Wastes] is not enabled> <hidden from users>",
 
-		"[+2 Gold] [in all cities connected to capital] <after adopting [Planned Economy]> <hidden from users>",
+		"[+3 Gold] [in all cities connected to capital] <after adopting [Planned Economy]> <hidden from users>",
 		"[+2 Production] [in all cities connected to capital] <after adopting [Adaptation Complete]> <hidden from users>",
 		"[+5]% [Gold] [in all cities] <after adopting [Adaptation Complete]> <hidden from users>",
 		
@@ -119,7 +119,6 @@
 			"[Personnel] units gain the [Automated] promotion",
 			"Starts with [Construction]",
 			"Adopt [Mechanization] <upon entering the [Industrial era]>",
-			"[+25]% Production towards any buildings that already exist in the Capital",
 			"[-15]% [Science] [in all cities] <before discovering [Computers]>",
 			"[-10]% [Production] [in all cities] <before discovering [Computers]>",
 			"[+3 Food] per [1] population [in all cities] <hidden from users>",
