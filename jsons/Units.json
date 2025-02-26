@@ -171,8 +171,9 @@
 			}
 		]
 	},
+	// kinda the same name as the Unmanned Combat Vehicle from Refurbished version
 	{
-		"name": "Light Drone",
+		"name": "Unmanned Aerial Vehicle",
 		"unitType": "Bomber",
 		"movement": 1,
 		"strength": 20,
