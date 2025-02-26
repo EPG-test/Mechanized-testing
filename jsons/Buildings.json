@@ -421,7 +421,7 @@
 			"Must have an owned [Solar array] within [2] tiles"],
 		"requiredTech": "Steel",
 	},
-			//Making it obselete after time could be better
+	//Making it obselete after time could be better, Its -30 precent food malus makes The Mechanized cities lose population wth,
 	{
 		"name": "Black Smoker",
 		"uniqueTo": "The Mechanized",
@@ -494,6 +494,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 			"[+5]% Production when constructing [All] buildings [in this city]",
+			"[+10]% Production when constructing [Automated] units [in all cities]",
 			"[+1 Production] from every [Solar array]",
 			"[+1 Science] <for every [1] [Power]>",
 			"Only available <if [Solar Powered Furnace] is constructed in at least [4] of [Your] cities>",
