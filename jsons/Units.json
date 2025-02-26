@@ -171,7 +171,29 @@
 			}
 		]
 	},
-		{
+	{
+		"name": "Light Drone",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 20,
+		"rangedStrength": 30,
+		"range": 4,
+		"cost": 150,
+		"requiredTech": "Hoplology",
+		"upgradesTo": "Light Drone",
+		"obsoleteTech": "Avionics",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Automated",
+			"[+2] Sight",
+			"Can see over obstacles",
+			"Consumes [1] [Aluminum]",
+			"Only available <if [Factory] is constructed>"
+		],
+		"promotions": ["Automated"],
+		"attackSound": "jetgun"
+	},
+	{
 		"name": "Life Surveillance Drone",
 		"uniqueTo": "The Mechanized",
 		"replaces": "Great Farmer",
