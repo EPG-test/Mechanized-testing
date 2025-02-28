@@ -171,9 +171,9 @@
 			}
 		]
 	},
-	// kinda the same name as the Unmanned Combat Vehicle from Refurbished version but has wings
+	// Thanks to Alpha Froniter for this idea (taken from Winghead Xeno)
 	{
-		"name": "Unmanned Aerial Vehicle",
+		"name": "Flying Wing",
 		"unitType": "Bomber",
 		"uniqueTo": "The Mechanized",
 		"movement": 1,
@@ -194,6 +194,11 @@
 		],
 		"promotions": ["Automated"],
 		"attackSound": "jetgun"
+				"civilopediaText": [
+			{
+				"text": "Scrapped idea of a Old World Drone. Nowadays it's a inferior settlement defense force."
+			}
+		]
 	},
 	{
 		"name": "Life Surveillance Drone",
