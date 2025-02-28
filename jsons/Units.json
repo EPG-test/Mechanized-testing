@@ -171,10 +171,11 @@
 			}
 		]
 	},
-	// kinda the same name as the Unmanned Combat Vehicle from Refurbished version
+	// kinda the same name as the Unmanned Combat Vehicle from Refurbished version but has wings
 	{
 		"name": "Unmanned Aerial Vehicle",
 		"unitType": "Bomber",
+		"uniqueTo": "The Mechanized",
 		"movement": 1,
 		"strength": 20,
 		"rangedStrength": 30,
