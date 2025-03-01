@@ -23,6 +23,7 @@
 			"Provides [4] [Power]",
 			"Provides [2] [Encrypted Data]",
 			"Free [Gunner Drone] appears",
+			"Free [Flying Wing] appears",
 			"Can only be built <in [Capital] cities>",
 			"Gain a free [Control Router] [in this city]"
 		],
@@ -297,7 +298,7 @@
 	},
 	//Nat wonders
 	{
-		"name": "Better Organs",
+		"name": "Better Organs Factory",
 		"replaces": "Organ Lab",
 		"uniqueTo": "The Mechanized",
 		"isNationalWonder": true,
@@ -446,7 +447,7 @@
 		"replaces": "Community Garden",
 		"specialistSlots": {"Administrator": 1, "Engineer": 1, "Scientist": 1},
 		"culture": 2,
-		"Production": 2,
+		"production": 2,
 		"maintenance": 2,
 		"uniques": [
 			"[+25]% Great Person generation [in this city]",
